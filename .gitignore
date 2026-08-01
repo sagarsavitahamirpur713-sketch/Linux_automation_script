@@ -1,0 +1,13 @@
+#which one we can't upload
+
+cat > .gitignore << 'EOF'
+*.tar.gz
+*.zip
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+*.tmp
+EOF
+
+
